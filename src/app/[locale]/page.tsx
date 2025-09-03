@@ -1,6 +1,5 @@
 
-import HomePage from "./[locale]/home/page";
-
+import HomePage from "./home/page";
 
 
 

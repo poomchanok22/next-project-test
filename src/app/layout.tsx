@@ -2,11 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import NavBar from "@/components/์NavBar";
 // import { ApolloProvider } from "@apollo/client"
 // import client from "../lib/apolloClient"
 import { ClientApolloProvider } from "@/lib/ClientApolloProvider";
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,14 +26,15 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {/* <ApolloProvider client={client}> */}
-      <ClientApolloProvider>
-            <NavBar/>
+        <ClientApolloProvider>
           {children}
-        
-        {/* </ApolloProvider> */}
-      </ClientApolloProvider>
+
+          {/* </ApolloProvider> */}
+        </ClientApolloProvider>
       </body>
     </html>
   );

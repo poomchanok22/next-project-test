@@ -1,0 +1,33 @@
+{
+  "HomePage": {
+    "title": "ยินดีต้อนรับสู่ Rick & Morty",
+    "nameLabel": "ชื่อ",
+    "emailLabel": "อีเมล",
+    "namePlaceholder": "กรอกชื่อของคุณ",
+    "emailPlaceholder": "กรอกอีเมลของคุณ",
+    "confirmButton": "ยืนยัน",
+    "noUsers": "ยังไม่มีผู้ใช้บันทึก",
+    "userCard": "ผู้ใช้ {index}"
+  },
+  "NavBar": {
+    "home": "หน้าแรก",
+    "character": "ตัวละคร",
+    "about": "เกี่ยวกับ",
+    "contact": "ติดต่อ",
+    "language": "ภาษา",
+    "english": "อังกฤษ",
+    "thai": "ไทย"
+  },
+  "CharacterPage": {
+    "title": "ตัวละคร (หน้า {page})",
+    "speciesLabel": "สายพันธุ์"
+  },
+  "CharacterDetail": {
+    "species": "สายพันธุ์",
+    "gender": "เพศ",
+    "status": "สถานะ",
+    "origin": "ต้นกำเนิด",
+    "location": "สถานที่",
+    "episodes": "ตอน"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "HomePage": {
+    "title": "Welcome to Rick & Morty",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "confirmButton": "Confirm",
+    "noUsers": "No users saved yet.",
+    "userCard": "User {index}"
+  },
+  "NavBar": {
+    "home": "Home",
+    "character": "Character",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "english": "English",
+    "thai": "Thai"
+  },
+  "CharacterPage": {
+    "title": "Characters (Page {page})",
+    "speciesLabel": "Species"
+  },
+  "CharacterDetail": {
+    "species": "Species",
+    "gender": "Gender",
+    "status": "Status",
+    "origin": "Origin",
+    "location": "Location",
+    "episodes": "Episodes"
+  }
+}
